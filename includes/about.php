@@ -4,7 +4,7 @@
 		display: inline-block;
 	}
 </style>
-<b>DetectRogue</b> A tool for detecting deauth attacks.
+<b>DetectDeauth</b> A tool for detecting deauth attacks.
 <br><br>
 <b>Author</b>: xtr4nge [_AT_] gmail.com - @xtr4nge
 
