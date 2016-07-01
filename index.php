@@ -145,7 +145,7 @@ Loading, please wait...
             <h4>
                 LOG
             </h4>
-            <h5>
+            
                 Delay (seconds)
                 <br>
                 <input id="detectdeauth_alert_delay" class="form-control input-sm" placeholder="Delay" value="<?=$mod_detectdeauth_alert_delay?>" style="width: 180px; display: inline-block; " type="text" />
@@ -155,7 +155,7 @@ Loading, please wait...
                 <br>
                 <input id="detectdeauth_number" class="form-control input-sm" placeholder="Number" value="<?=$mod_detectdeauth_number?>" style="width: 180px; display: inline-block; " type="text" />
                 <input class="btn btn-default btn-sm" type="button" value="save" onclick="setOption('detectdeauth_number', 'mod_detectdeauth_number');">
-            </h5>
+            
             <hr>
             <h4>
                 <input id="detectdeauth_alert" type="checkbox" name="my-checkbox" <? if ($mod_detectdeauth_alert == "1") echo "checked"; ?> onclick="setCheckbox(this, 'mod_detectdeauth_alert')" >
@@ -165,17 +165,17 @@ Loading, please wait...
             <h4>
                 EMAIL
             </h4>
-            <h5>
+            
                 <div style="width: 50px; display: inline-block">From</div> <input id="detectdeauth_email_from" class="form-control input-sm" placeholder="From" value="<?=$mod_detectdeauth_email_from?>" style="width: 180px; display: inline-block; " type="text" />
                 <br>
                 <div style="width: 50px; display: inline-block">To</div> <input id="detectdeauth_email_to" class="form-control input-sm" placeholder="To" value="<?=$mod_detectdeauth_email_to?>" style="width: 180px; display: inline-block; " type="text" />
                 <input class="btn btn-default btn-sm" type="button" value="save" onclick="setOption('detectdeauth_email_from', 'mod_detectdeauth_email_from'); setOption('detectdeauth_email_to', 'mod_detectdeauth_email_to'); setOption('detectdeauth_email_subject', 'mod_detectdeauth_email_subject');">
-            </h5>
+            
             <hr>
             <h4>
                 SMTP
             </h4>
-            <h5>
+            
                 <div style="width: 50px; display: inline-block">Server</div> <input id="detectdeauth_smtp_server" class="form-control input-sm" placeholder="Server" value="<?=$mod_detectdeauth_smtp_server?>" style="width: 180px; display: inline-block; " type="text" />
                 <br>
                 <div style="width: 50px; display: inline-block">Port</div> <input id="detectdeauth_smtp_port" class="form-control input-sm" placeholder="Port" value="<?=$mod_detectdeauth_smtp_port?>" style="width: 180px; display: inline-block; " type="text" />
@@ -191,7 +191,7 @@ Loading, please wait...
                 <div style="width: 54px; display: inline-block"></div><input id="detectdeauth_smtp_auth" type="checkbox" name="my-checkbox" <? if ($mod_detectdeauth_smtp_auth == "1") echo "checked"; ?> onclick="setCheckbox(this, 'mod_detectdeauth_smtp_auth')" > auth
                 <br>
                 <div style="width: 54px; display: inline-block"></div><input id="detectdeauth_smtp_starttls" type="checkbox" name="my-checkbox" <? if ($mod_detectdeauth_smtp_starttls == "1") echo "checked"; ?> onclick="setCheckbox(this, 'mod_detectdeauth_smtp_starttls')" > starttls
-            </h5>
+            
             <hr>
             <h4>
                 <input id="detectdeauth_jump" type="checkbox" name="my-checkbox" <? if ($mod_detectdeauth_jump == "1") echo "checked"; ?> onclick="setCheckbox(this, 'mod_detectdeauth_jump')" >
