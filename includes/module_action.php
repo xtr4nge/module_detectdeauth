@@ -96,7 +96,7 @@ if($service == "detectdeauth") {
 		if ($mod_detectdeauth_alert == "1") $options_alert = "-a";
 		if ($mod_detectdeauth_jump == "1") $options_jump = "-j";
 		
-		$exec = "python scan-deauth.py -i mon0 $options_channel $options_alert -l $mod_logs -n $mod_detectdeauth_number $options_jump > /dev/null 2 &";
+		$exec = "python scan-deauth.py -i mon0 $options_channel $options_alert -d $mod_detectdeauth_alert_delay -l $mod_logs -n $mod_detectdeauth_number $options_jump > /dev/null 2 &";
 		exec_fruitywifi($exec);
 	
 	} else if($action == "stop") {
